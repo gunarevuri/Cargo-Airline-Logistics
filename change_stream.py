@@ -6,7 +6,7 @@ import ssl
 
 import routing
 
-URL = 'mongodb+srv://admin:admin123@cluster0.llwjl.mongodb.net/myFirstDatabase?retryWrites=true&w=1'
+URL = 'mongodb+srv://admin:admin123@cluster0.*******.mongodb.net/myFirstDatabase?retryWrites=true&w=1'
 client = pymongo.MongoReplicaSetClient(URL,ssl=True,ssl_cert_reqs=ssl.CERT_NONE)
 db = client['logistics']
 
